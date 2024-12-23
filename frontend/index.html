@@ -12,7 +12,15 @@
     <title>Gürkan Sönmez - Resume</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style></style>
+    <style>
+         /* Resmi ortalamak için basit bir CSS kuralı */
+    .centered-img {
+      display: block;      /* Her tarayıcıda tam ortalamayı garantiler */
+      margin: 0 auto;      /* Otomatik yatay kenar boşluğu */
+      max-width: 300px;    /* İsteğe bağlı, resmi daha küçük/duyarlı hale getirir */
+      height: auto;        /* En boy oranını korur */
+    }
+    </style>
 </head>
  
 <body>
@@ -41,6 +49,8 @@
 
     <!-- Resume Content -->
     <article class="wrapper">
+
+        <img class="centered-img" src="foto.png" alt="My Photo" />
 
         <section class="section-profile">
             <h1 class="section-profile-h1">Hi, <span class="section-profile-h1-sub-h1">I'm Gürkan Sönmez</span></h1>
@@ -170,7 +180,7 @@
     <!-- Footer -->
     <footer class="footer" id="footer">
         <div class="footer-container">
-            <h2>Contact 12</h2>
+            <h2>Contact</h2>
             <ul>
                 <li>
                     <a href="mailto:snmzgrkn@gmail.com"><i class="fa-solid fa-envelope"></i>Mail</a>
